@@ -63,7 +63,7 @@
 
     <header id="unidades-top" class="align-center">
         <h2>Unidades</h2>
-        <p>Escolha a unidade mais próxima de você. Para ficar mais fácil chegar, em um clique você já vai direto para o Waze.</p>
+        <p>Escolha a unidade mais próxima de você. Para ficar mais fácil de chegar, em um clique você pode ir direto para o Waze ou pedir um Uber.</p>
     </header>
     <section id="unidades">
         <div class="row">
@@ -106,13 +106,13 @@
                     <span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
                     <h3>Rua Monsenhor Ambrosino Leite 68, Graças, Recife - PE</h3>
                     <p></p>
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d802.4349717558554!2d-34.902080597040616!3d-8.05123142958045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e136106aa9%3A0x8e9431035d19717e!2sR.%20Monsenhor%20Ambrosino%20Leite%2C%2068%20-%20Gra%C3%A7as%2C%20Recife%20-%20PE%2C%2052011-230!5e0!3m2!1spt-BR!2sbr!4v1647045658571!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                     <ul class="actions special">
                         <li><a class="button bt-blue" href="https://ul.waze.com/ul?ll=-8.05128364%2C-34.90145087&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">Ir no Waze</a></li>
                         <li><a class="button bt-black" href="https://m.uber.com/ul/?action=setPickup&dropoff[latitude]=-8.051258990284689&dropoff[longitude]=-34.90140184498042&dropoff[nickname]=Sir%20Diagnostico&dropoff[formatted_address]=1%20Rua%20Monsenhor%20Ambrosino%20Leite%2068%20Gracas%20Recife%20Pernambuco&product_id=a1111c8c-c720-46c3-8534-2fcdd730040d">Pedir Uber</a></li>
                     </ul>
-                    <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d802.4349717558554!2d-34.902080597040616!3d-8.05123142958045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e136106aa9%3A0x8e9431035d19717e!2sR.%20Monsenhor%20Ambrosino%20Leite%2C%2068%20-%20Gra%C3%A7as%2C%20Recife%20-%20PE%2C%2052011-230!5e0!3m2!1spt-BR!2sbr!4v1647045658571!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
                 </section>
 
             </div>
