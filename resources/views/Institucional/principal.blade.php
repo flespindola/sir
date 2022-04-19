@@ -6,8 +6,8 @@
     <h2>Sir Diagnóstico</h2>
     <p>Compromisso com a sua saúde há mais de 25 anos.</p>
     <ul class="actions special">
-        <li><a href="#unidades-top" class="button primary">Unidades</a></li>
-        <li><a href="#main" class="button">Saiba Mais</a></li>
+        <li><a href="{{ route('resultados') }}" class="button primary">Resultados</a></li>
+        <li><a href="#unidades-top" class="button">Unidades</a></li>
     </ul>
 </section>
 

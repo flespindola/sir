@@ -21,8 +21,8 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
-            <li><a href="#" class="button bt-primary">Resultados</a></li-->
+            </li-->
+            <li><a href="{{ route('resultados.procurar') }}" class="button bt-primary">Resultados</a></li>
         </ul>
     </nav>
 </header>

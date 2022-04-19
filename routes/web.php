@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ResultadosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('institucional/principal');
-});
+})->name('principal');
+
+Route::get('/resultados', function () {
+    return view('resultados/procurar');
+})->name('resultados');
+
+Route::post('/resultados/procurar',[ResultadosController::class, 'search'])->name('resultados.procurar');
