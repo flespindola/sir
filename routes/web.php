@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ResultadosController;
+use App\Http\Controllers\ResultsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +22,6 @@ Route::get('/resultados', function () {
     return view('resultados/procurar');
 })->name('resultados');
 
-Route::post('/resultados/procurar',[ResultadosController::class, 'search'])->name('resultados.procurar');
+Route::get('/v/r', [ResultsController::class, 'view'])->name('resultados.visualizar');
+
+Route::post('/resultados/procurar',[ResultsController::class, 'search'])->name('resultados.procurar');

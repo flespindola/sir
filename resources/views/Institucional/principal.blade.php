@@ -7,7 +7,7 @@
     <p>Compromisso com a sua saúde há mais de 25 anos.</p>
     <ul class="actions special">
         <li><a href="{{ route('resultados') }}" class="button primary">Resultados</a></li>
-        <li><a href="#unidades-top" class="button">Unidades</a></li>
+        <li><a class="button go-to-unidades" href="#unidades-top">Unidades</a></li>
     </ul>
 </section>
 
@@ -20,7 +20,6 @@
             avançados para atender você e sua família.</h2>
             <p>O SIR Diagnóstico realiza diagnósticos por imagem com qualidade e segurança, utilizando equipamentos de alta tecnologia e profissionais experientes. Os exames são indolores e possuem baixa exposição à radiação. Em caso de dúvida, consulte o seu médico</p>
         </header>
-        <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
     </section>
 
     <header class="align-center">
@@ -32,19 +31,19 @@
             <section>
                 <span class="icon solid major fa-check accent6"></span>
                 <h3>Raio-x</h3>
-                <p>É um tipo de exame muito importante no diagnóstico de várias <strong>alterações abdominais</strong>, principalmente na pesquisa do <strong>cálculo renal</strong>. Durante o exame os raios x atravessam o corpo humano produzindo uma imagem em uma placa.</p>
+                <p>É um tipo de exame muito importante no diagnóstico de várias <strong>alterações vasculares</strong>, <strong>fraturas</strong> e <strong>vários tipos de alterações da coluna vertebral</strong>.</p>
             </section>
             <section>
                 <span class="icon solid major fa-check accent6"></span>
                 <h3>Tomografia Computadorizada</h3>
-                <p>É mais usada para identificar <strong>tumores</strong>, <strong>obstruções circulatórias</strong>, <strong>fraturas</strong>, <strong>alterações orgânicas</strong> e <strong>outras anomalias teciduais</strong>, além de ser também muito eficiente a sua atuação no cérebro humano.</p>
+                <p>É mais usada para identificar <strong>tumores</strong>, <strong>alterações vasculares</strong>, <strong>fraturas</strong>, <strong>alterações orgânicas</strong> e <strong>outras anomalias teciduais</strong>, além de ser também muito eficiente a sua atuação no cérebro humano.</p>
             </section>
         </div>
         <div class="features-row">
             <section>
                 <span class="icon solid major fa-check accent6"></span>
                 <h3>Ressonância Magnética</h3>
-                <p>Tem importância na captação de imagens para qualquer parte do corpo. Deve-se destacar que a <strong>Ressonância Magnética</strong> deve ser feita quando for solicitada por um médico. Dependendo do objetivo do exame o paciente pode escutar sons, ver filmes, sentir odores, apertar botões, realizar tarefas cognitivas ou fazer outras coisas. Produz imagens de alta definição de qualquer parte do corpo humano</p>
+                <p>Indicado para identificar <strong>lesões cerebrais</strong>, <strong>hérnias de disco e outras alterações da coluna vertebral</strong>. Também auxilia no diagnóstico dos diversos tipos de <strong>lesões das articulações</strong>, principalmente dos <strong>ombros e dos joelhos</strong>. Tem importância na captação de imagens para qualquer parte do corpo. Dependendo do objetivo do exame o paciente pode escutar sons, ver filmes, sentir odores, apertar botões, realizar tarefas cognitivas ou fazer outras coisas. Produz imagens de alta definição de qualquer parte do corpo humano</p>
             </section>
             <section>
                 <span class="icon solid major fa-check accent6"></span>
@@ -70,7 +69,6 @@
             <div class="col-12 col-12-narrower">
 
                 <section class="box special">
-                    <span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
                     <h3>Rua Guilherme Pinto 100, Graças, Recife - PE</h3>
                     <p></p>
                     <div class="map-responsive">
@@ -86,7 +84,6 @@
             <div class="col-12 col-12-narrower">
 
                 <section class="box special">
-                    <span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
                     <h3>Rua das Pernambucanas 244, Graças, Recife - PE</h3>
                     <p></p>
                     <div class="map-responsive">
@@ -103,7 +100,6 @@
             <div class="col-12 col-12-narrower">
 
                 <section class="box special">
-                    <span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
                     <h3>Rua Monsenhor Ambrosino Leite 68, Graças, Recife - PE</h3>
                     <p></p>
                     <div class="map-responsive">
@@ -147,7 +143,7 @@ $("#go-to-quem-somos").on("click", function() {
     }, 2000);
 });
 
-$("#go-to-unidades").on("click", function() {
+$(".go-to-unidades").on("click", function() {
     $('html, body').animate({
         scrollTop: $("#unidades-top").offset().top
     }, 2000);

@@ -1,4 +1,6 @@
 <title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="keywords" content="{{ $keywords }}">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">

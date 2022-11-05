@@ -12,16 +12,20 @@ class Meta extends Component
     public $description;
 
     public $image;
+
+    public $keywords;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title, $description, $image)
+    public function __construct($title, $description, $image, $keywords)
     {
         $this->title = $title;
         $this->description = $description;
         $this->image = $image;
+        $this->keywords = $keywords;
     }
 
     /**
