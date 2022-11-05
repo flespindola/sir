@@ -10,14 +10,12 @@ class Result extends Model
 {
     use HasFactory;
 
-    public static $botdesignerUrl = 'https://api.botdesigner.io/v1/messages/sendMessage';
-
     protected $fillable = [
         'birthday',
         'os',
         'status'
     ];
-    
+
     public static function wasSent($os)
     {
         $result = self::where('os', $os)->first();
